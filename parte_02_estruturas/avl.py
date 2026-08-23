@@ -3,7 +3,7 @@
 
 from typing import Any, Dict, Optional, Tuple
 
-from iffagle.texto import normalizar_texto
+from parte_03_documentos.texto import normalizar_texto
 
 
 #representa cada nó da árvore

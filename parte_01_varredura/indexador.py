@@ -3,15 +3,15 @@ import os
 from datetime import datetime
 from typing import Any, Dict, List, Optional
 
-from iffagle.estruturas.avl import ArvoreAVL
-from iffagle.modelos import ArquivoIndexado
-from iffagle.servicos.documentos import criar_documento_indexado, inserir_documento_nos_indices
-from iffagle.servicos.imagens import criar_imagem_indexada, inserir_imagem_nos_indices
-from iffagle.servicos.pesquisa_documentos import buscar_documentos
-from iffagle.servicos.pesquisa_imagens import buscar_imagens
-from iffagle.servicos.scanner import percorrer_diretorio
-from iffagle.estruturas.ordenacao import merge_sort
-from iffagle.texto import normalizar_texto
+from parte_01_varredura.modelos import ArquivoIndexado
+from parte_01_varredura.scanner import percorrer_diretorio
+from parte_02_estruturas.avl import ArvoreAVL
+from parte_02_estruturas.ordenacao import merge_sort
+from parte_03_documentos.documentos import criar_documento_indexado, inserir_documento_nos_indices
+from parte_03_documentos.pesquisa_documentos import buscar_documentos
+from parte_03_documentos.texto import normalizar_texto
+from parte_04_imagens_web.imagens import criar_imagem_indexada, inserir_imagem_nos_indices
+from parte_04_imagens_web.pesquisa_imagens import buscar_imagens
 
 
 class IFFagleIndexador:

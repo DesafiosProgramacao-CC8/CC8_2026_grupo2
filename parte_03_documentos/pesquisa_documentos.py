@@ -1,5 +1,5 @@
 from typing import Any, Dict, List
-from iffagle.texto import normalizar_texto, tokenizar
+from parte_03_documentos.texto import normalizar_texto, tokenizar
 
 
 def buscar_documentos(consulta: str, criterio: str, arquivos, indice_documentos, indice_conteudo) -> List[Dict[str, Any]]:

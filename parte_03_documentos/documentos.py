@@ -1,6 +1,6 @@
 from typing import Dict
-from iffagle.modelos import ArquivoIndexado
-from iffagle.texto import STOPWORDS, contar_frequencias, palavras_mais_comuns, tokenizar
+from parte_01_varredura.modelos import ArquivoIndexado
+from parte_03_documentos.texto import STOPWORDS, contar_frequencias, palavras_mais_comuns, tokenizar
 
 
 QUANTIDADE_PALAVRAS_COMUNS = 20

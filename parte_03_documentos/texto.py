@@ -2,7 +2,7 @@ import re
 import unicodedata
 from typing import Dict, List, Tuple
 
-from iffagle.estruturas.ordenacao import merge_sort
+from parte_02_estruturas.ordenacao import merge_sort
 
 
 STOPWORDS = {

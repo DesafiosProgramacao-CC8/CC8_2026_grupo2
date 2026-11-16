@@ -1,0 +1,6 @@
+#o IFFARQL cria o id de cada tabela
+#data fica em TEXTO pra aceitar 29/02; o servidor confere o calendario
+CRIATABELA Usuario (nome_completo TEXTO apelido TEXTO data_nascimento TEXTO senha TEXTO)
+CRIATABELA Amizade (id_usuario_1 INTEIRO CHAVESTRANGEIRA Usuario id_usuario_2 INTEIRO CHAVESTRANGEIRA Usuario bloqueado BOOLEANO ha_notificacao BOOLEANO silenciado BOOLEANO pendente BOOLEANO solicitante INTEIRO CHAVESTRANGEIRA Usuario ultimo_lido INTEIRO)
+CRIATABELA Conversa (id_amizade INTEIRO CHAVESTRANGEIRA Amizade data TEXTO hora INTEIRO minuto INTEIRO mensagem TEXTO)
+CRIATABELA Evento (destinatario INTEIRO CHAVESTRANGEIRA Usuario origem INTEIRO CHAVESTRANGEIRA Usuario aceito BOOLEANO entregue BOOLEANO)
